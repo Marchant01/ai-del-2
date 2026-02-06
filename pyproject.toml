@@ -1,0 +1,26 @@
+[project]
+name = "examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "keras-tuner>=1.4.8",
+    "langchain>=1.2.6",
+    "langchain-chroma>=0.1.2",
+    "langchain-openai>=1.1.7",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "streamlit>=1.54.0",
+    "tensorflow[and-cuda]>=2.20.0",
+    "ucimlrepo>=0.0.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "notebook>=7.5.1",
+]
